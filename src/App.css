@@ -1,0 +1,48 @@
+@font-face {
+  font-family: art1;
+  src: url("assets/font/Aorell-mLEM5.ttf");
+}
+@font-face {
+  font-family: art2;
+  src: url("assets/font/BreakPassword-51P0Z.otf");
+}
+@font-face {
+  font-family: art3;
+  src: url("assets/font/Malkovich Demo.ttf");
+}
+
+#root {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+}
+
+body {
+  background-color: #0e1118;
+  background-image: radial-gradient(transparent, #0e1118 90%),
+    repeating-linear-gradient(#182127a0 0px 2px, transparent 2px 150px),
+    repeating-linear-gradient(90deg, #182127a0 0px 2px, transparent 2px 150px);
+  background-position: center center;
+  /* background-attachment: fixed; */
+  color: white;
+}
+
+* {
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  background: #fff3;
+  width: 12px;
+  height: 12px;
+  /* border: 3px solid transparent; */
+  /* border-radius: 100px; */
+  -webkit-background-clip: content-box;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border: 3px solid transparent;
+  border-radius: 100px;
+  -webkit-background-clip: content-box;
+}
